@@ -1,12 +1,12 @@
 backend:
   name: github
   repo: ErikSArnold/pages-uswds-jekyll-netlify
-  
   preview_context: my-provider/deployment
-  publish_mode: editorial_workflow
-  media_folder: /assets/uploads
+  
+  media_folder: assets/uploads
   public_folder: /images/uploads
-
+  publish_mode: editorial_workflow
+  
 collections:
   - label: Posts
     name: posts
